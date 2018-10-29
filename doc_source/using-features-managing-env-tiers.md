@@ -52,7 +52,7 @@ The daemon sets the following HTTP headers\.
 |  **HTTP Headers**  | 
 | --- | 
 | Name | Value | 
-|  User\-Agent  |  `aws-sqsd` `aws-sqsd/1.1`1  | 
+|  User\-Agent  |  `aws-sqsd` `aws-sqsd/1.11`  | 
 |  X\-Aws\-Sqsd\-Msgid  |  SQS message ID, used to detect message storms \(an unusually high number of new messages\)\.  | 
 |  X\-Aws\-Sqsd\-Queue  |  Name of the SQS queue\.  | 
 |  X\-Aws\-Sqsd\-First\-Received\-At  |  UTC time, in [ISO 8601 format](http://www.w3.org/TR/NOTE-datetime), when the message was first received\.  | 
